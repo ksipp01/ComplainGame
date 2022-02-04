@@ -51,4 +51,4 @@ jobs:
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5713EF08D3834C2083B07C1DA6DC61F7 }}
           package: '*.jar'
-          generatePom: 'true'
+          generate-pom: 'true'
